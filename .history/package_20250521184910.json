@@ -1,0 +1,17 @@
+{
+    "name": "social-media-scraper",
+    "version": "1.0.0",
+    "description": "A tool to scrape TikTok and Instagram reels and save them to an Excel file",
+    "main": "social-media-scraper.js",
+    "scripts": {
+      "start": "node social-media-scraper.js"
+    },
+    "dependencies": {
+      "puppeteer": "^20.5.0",
+      "puppeteer-extra": "^3.3.6",
+      "puppeteer-extra-plugin-stealth": "^2.11.2",
+      "exceljs": "^4.3.0"
+    },
+    "author": "",
+    "license": "MIT"
+  }
